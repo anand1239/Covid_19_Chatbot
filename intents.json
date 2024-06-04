@@ -1,0 +1,577 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up",
+                "It's nice to meet you"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day",
+                "Bye",
+                "leaving"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", 
+                "Thank you", 
+                "That's helpful", 
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "0",
+            "patterns": [
+                "What is a coronavirus?",
+                "What is covid virus"
+            ],
+            "responses": [
+                "Coronaviruses are a large family of viruses which may cause illness in animals or humans.",
+                "In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases"
+            ]
+        },
+        {
+            "tag": "1",
+            "patterns": [
+                "What is COVID-19?",
+                "What is corona"
+            ],
+            "responses": [
+                "COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."
+            ]
+        },
+        {
+            "tag": "2",
+            "patterns": [
+                "What are the symptoms of COVID-19?",
+                "Behaviour changes due to corona",
+                "Symptoms of Infection",
+                "Symptoms of corona"
+            ],
+            "responses": [
+                "The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually.",
+                "Some people become infected but dont develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment.",
+                "Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing.",
+                "Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."
+            ]
+        },
+        {
+            "tag": "3",
+            "patterns": [
+                "How does COVID-19 spread?",
+                "How it spread ?",
+                "How corona spread ?"
+            ],
+            "responses": [
+                "People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales.",
+                "People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick."
+            ]
+        },
+        {
+            "tag": "4",
+            "patterns": [
+                "Can the virus that causes COVID-19 be transmitted through the air?",
+                "Can it transmit in air",
+                "How Likely the virus spread in air ?",
+                "Can covid virus spread in air ?",
+                "Can corona virus transmit in air?"
+            ],
+            "responses": [
+                "Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air."
+            ]
+        },
+        {
+            "tag": "5",
+            "patterns": [
+                "Can CoVID-19 be caught from a person who has no symptoms?",
+                "Can we get infected from another person who has no symptoms?",
+                "Can we get infected from a person?"
+            ],
+            "responses": [
+                "The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low.",
+                "Many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill. "
+            ]
+        },
+        {
+            "tag": "6",
+            "patterns": [
+                "Can I catch COVID-19 from the feces of someone with the disease?",
+                "Can virus spread from feces?",
+                "From feces , Can we get Infected ?"
+            ],
+            "responses": [
+                "The risk of catching COVID-19 from the feces of an infected person appears to be low. While initial investigations suggest the virus may be present in feces in some cases, spread through this route is not a main feature of the outbreak. "
+            ]
+        },
+        {
+            "tag": "7",
+            "patterns": [
+                "What can I do to protect myself and prevent the spread of disease?",
+                "How to protect us from covid19 ?",
+                "How to prevent covid 19 infection"
+            ],
+            "responses": [
+                "Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.",
+                "Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.",
+                "Avoid touching eyes, nose and mouth.",
+                "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.",
+                "Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
+                "If possible, avoid traveling to places especially if you are an older person or have diabetes, heart or lung disease.",
+                "Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely)."
+            ]
+        },
+        {
+            "tag": "8",
+            "patterns": [
+                "What can I do to protect myself ",
+                "How to prevent covid 19 infection",
+                "Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading prevent the spread of disease?"
+            ],
+            "responses": [
+                "Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover."
+            ]
+        },
+        {
+            "tag": "9",
+            "patterns": [
+                "Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading",
+                "How to protect us from covid19 if i have visited covid prone area?",
+                "What can I do to protect myself from infection if i visited covid prone area"
+            ],
+            "responses": [
+                "If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers."
+            ]
+        },
+        {
+            "tag": "10",
+            "patterns": [
+                "How likely am I to catch COVID-19?",
+                "Chances to get Corona",
+                "Chances to get Covid-19",
+                "Probability to get infected"
+
+            ],
+            "responses": [
+                "The risk depends on where you are - and more specifically, whether there is a COVID-19 outbreak unfolding there.",
+                "For most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher.",
+                "COVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly. Its important to be aware of the situation where you are or intend to go."
+            ]
+        },
+        {
+            "tag": "11",
+            "patterns": [
+                "Should I worry about COVID-19",
+                "Should I care of covid-19",
+                "Can covid harm me?",
+                "Is covid dangerous for me"
+            ],
+            "responses": [
+                "Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care.",
+                "We can channel our concerns into actions to protect ourselves, our loved ones and our communities."
+            ]
+        },
+        {
+            "tag": "12",
+            "patterns": [
+                "Who is at risk of developing severe illness?",
+                "Who are at the most risk?",
+                "Who are at the higher risk"
+            ],
+            "responses": [
+                "While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others. "
+            ]
+        },
+        {
+            "tag": "13",
+            "patterns": [
+                "Are antibiotics effective in preventing or treating the COVID-19?",
+                "Can antibiotics cure covid",
+                "Should i take antibiotics to avoid covid?"
+            ],
+            "responses": [
+                "No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work.",
+                "Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection."
+            ]
+        },
+        {
+            "tag": "14",
+            "patterns": [
+                "Are there any medicines or therapies that can prevent or cure COVID-19?",
+                "Which medicines can treat covid",
+                "What are medicines that can treat covid"
+            ],
+            "responses": [
+                "While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease.",
+                "WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19."
+            ]
+        },
+        {
+            "tag": "15",
+            "patterns": [
+                "Is there a vaccine, drug or treatment for COVID-19?",
+                "Vaccine for covid",
+                "Medicine for covid",
+                "Drugs in covid"
+            ],
+            "responses": [
+                "Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019.",
+                "Those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.",
+                "Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.",
+                "The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing."
+            ]
+        },
+        {
+            "tag": "16",
+            "patterns": [
+                "Is COVID-19 the same as SARS?",
+                "What is SARS",
+                "Is covid same as SARS",
+                "How is covid similar to SARS"
+            ],
+            "responses": [
+                "No. The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different.",
+                "SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."
+            ]
+        },
+        {
+            "tag": "17",
+            "patterns": [
+                "Should I wear a mask to protect myself",
+                "Can mask protect us from covid",
+                "Can covid be prevented by wearing mask",
+                "Should i use mask for preventing covid"
+            ],
+            "responses": [
+                "Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once.",
+                "If you are not ill or looking after someone who is ill then you are wasting a mask.",
+                "There is a world-wide shortage of masks, so WHO urges people to use masks wisely."
+            ]
+        },
+        {
+            "tag": "18",
+            "patterns": [
+                "How to put on, use, take off and dispose of a mask?",
+                "How to use mask",
+                "How to dispose mask",
+                "How to use and dispose mak to prevent infection"
+            ],
+            "responses": [
+                "Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough.",
+                "Before touching the mask, clean hands with an alcohol-based hand rub or soap and water"
+            ]
+        },
+        {
+            "tag": "19",
+            "patterns": [
+                "How long is the incubation period for COVID-19?",
+                "What is incubation period",
+                "Incubation period for covid"
+            ],
+            "responses": [
+                "The incubation period means the time between catching the virus and beginning to have symptoms of the disease.",
+                "Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available."
+            ]
+        },
+        {
+            "tag": "20",
+            "patterns": [
+                "Can humans be infected with the COVID-19 from an animal source?",
+                "Can we get covid from animal",
+                "Can animals spread covid"
+            ],
+            "responses": [
+                "Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people.",
+                "SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. ",
+                "Possible animal sources of COVID-19 have not yet been confirmed. ",
+                "To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals.",
+                "Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."
+            ]
+        },
+        {
+            "tag": "21",
+            "patterns": [
+                "Can I catch COVID-19 from my pet?",
+                "Can we get covid from pets",
+                "Can pet spread covid"
+            ],
+            "responses": [
+                "While there has beenone instance of a dog being infected in Hong Kong, todate, there is no evidence that a dog, cat or any pet can transmit COVID-19.",
+                "COVID-19 is mainly spread through droplets produced when an infected person coughs, sneezes, or speaks."
+            ]
+        },
+        {
+            "tag": "22",
+            "patterns": [
+                "How long does the virus survive on surfaces?",
+                "How long does the virus stays on surfaces?",
+                "Can we catch covid from surfaces?"
+            ],
+            "responses": [
+                "It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses.",
+                "Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment).",
+                "If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others."
+            ]
+        },
+        {
+            "tag": "23",
+            "patterns": [
+                "Is it safe to receive a package from any area where COVID-19 has been reported?",
+                "Should we get deliveries from covid prone areas",
+                "Should I receive my parcel from covid infected area"
+            ],
+            "responses": [
+                "Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low."
+            ]
+        },
+        {
+            "tag": "24",
+            "patterns": [
+                "Is there anything I should not do?",
+                "What to avoid to reduce risk",
+                "Avoidable actions for covid prevention"
+            ],
+            "responses": [
+                "Smoking",
+                "Wearing multiple masks",
+                "Taking antibiotics"
+            ]
+        },
+        {
+            "tag": "25",
+            "patterns": [
+                "Is the source causing COVID-19 known?",
+                "Source of covid",
+                "From where does covid originated"
+            ],
+            "responses": [
+                "Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown."
+            ]
+        },
+        {
+            "tag": "26",
+            "patterns": [
+                "How did the first human SARS-CoV-2 infections occur?",
+                "Where was the first covid case reported",
+                "When did first human caught covid infection"
+            ],
+            "responses": [
+                "The first human cases of COVID-19 were identified in Wuhan City, China in December 2019.",
+                "SARS-CoV, the virus which caused the SARS outbreak in 2003, jumped from an animal reservoir (civet cats, a farmed wild animal) to humans and then spread between humans.",
+                "Until the source of this virus is identified and controlled, there is a risk of reintroduction of the virus in the human population and the risk of new outbreaks like the ones we are currently experiencing."
+            ]
+        },
+        {
+            "tag": "27",
+            "patterns": [
+                "Is COVID-19 airborne?",
+                "Can covid spread through air?",
+                "Through air,can covid spread?",
+                "Is air a medium to spread covid?"
+            ],
+            "responses": [
+                "The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks. These droplets are too heavy to hang in the air. They quickly fall on floors or surfaces. "
+            ]
+        },
+        {
+            "tag": "28",
+            "patterns": [
+                "Are pregnant women at higher risk from COVID-19?",
+                "Pregnant women at higher risk?",
+                "Is there risk for pregnant women?",
+                "Risk for pregnant women?"
+            ],
+            "responses": [
+                "At present there is no evidence that they are at higher risk of severe illness than the general population.",
+                "due to changes in their bodies and immune systems, we know that pregnant women can be badly affected by some respiratory infections. It is therefore important that they take precautions to protect themselves against COVID-19, and report possible symptoms (including fever, cough or difficulty breathing) to their healthcare provider."
+            ]
+        },
+        {
+            "tag": "29",
+            "patterns": [
+                "I'm pregnant. How can I protect myself against COVID-19?",
+                "How pregnant women can be protected from covid?",
+                "For pregnant women, how to protect from covid?"
+            ],
+            "responses": [
+                "Pregnant women should take the same precautions to avoid COVID-19 infection as other people.",
+                "Pregnant women and women who have recently delivered including those affected by COVID-19 - should attend their routine care appointments."
+            ]
+        },
+        {
+            "tag": "30",
+            "patterns": [
+                "Should pregnant women be tested for COVID-19?",
+                "Pregnant women should be tested for covid?",
+                "Should covid test taken for pregant women?",
+                "Is test taken of pregnant women for covid?"
+            ],
+            "responses": [
+                "Testing protocols and eligibility vary depending on where you live."
+            ]
+        },
+        {
+            "tag": "31",
+            "patterns": [
+                "Can COVID-19 be passed from a woman to her unborn baby?",
+                "Is covid pass from mother to unborn baby?",
+                "Can covid pass from pregnant women to unborn baby?",
+                "Is it possible that covid can pass from pregnant women to unborn baby?"
+            ],
+            "responses": [
+                "We still do not know if a pregnant woman with COVID-19 can pass the virus to her foetus or baby during pregnancy or delivery. To date, the virus has not been found in samples of amniotic fluid or breastmilk."
+            ]
+        },
+        {
+            "tag": "32",
+            "patterns": [
+                "What care should be available during pregnancy and childbirth?",
+                "Precautions to taken during pregnancy?",
+                "Precautions to taken during childbirth?",
+                "Care available during pregnancy and childbirth?"
+            ],
+            "responses": [
+                "All pregnant women, including those with confirmed or suspected COVID-19 infections, have the right to high quality care before, during and after childbirth.Like there should proper care given by family in every aspect."
+            ]
+        },
+        {
+            "tag": "33",
+            "patterns": [
+                "Do pregnant women with suspected or confirmed COVID-19 need to give birth by ceasarean section?",
+                "Can pregnant women with covid need to give birth by ceasarean section?",
+                "By ceasarean section, can pregnant women give birth while having covid?"
+            ],
+            "responses": [
+                "No. WHO advice is that caesarean sections should only be performed when medically justified."
+            ]
+        },
+        {
+            "tag": "34",
+            "patterns": [
+                "Can women with COVID-19 breastfeed?",
+                "Is there no problem for breastfeed if having covid?",
+                "Women can breastfeed if have covid?"
+            ],
+            "responses": [
+                "Yes. Women with COVID-19 can breastfeed if they wish to do so."
+            ]
+        },
+        {
+            "tag": "35",
+            "patterns": [
+                "Can I touch and hold my newborn baby if I have COVID-19?",
+                "Does newborn baby can have covid if I have?",
+                "I have covid then does Newborn baby can also have covid?",
+                "Can I touch baby if I have covid?",
+                "If I have covid, can't touch newborn baby?"
+            ],
+            "responses": [
+                "Yes. Close contact and early, exclusive breastfeeding helps a baby to thrive. "
+            ]
+        },
+        {
+            "tag": "36",
+            "patterns": [
+                "How are COVID-19 and influenza viruses similar?",
+                "covid and influenza virus similar?",
+                "How much influenza virus and covid are not different?"
+            ],
+            "responses": [
+                "COVID-19 and influenza viruses have a similar disease presentation. That is, they both cause respiratory disease, which presents as a wide range of illness from asymptomatic or mild through to severe disease and death.",
+                "Both viruses are transmitted by contact, droplets and fomites."
+            ]
+        },
+        {
+            "tag": "37",
+            "patterns": [
+                "How are COVID-19 and influenza viruses different?",
+                "covid and influenza virus are different?",
+                "Influenza virus and covid different?",
+                "covid and influenza virus not similar?"
+            ],
+            "responses": [
+                "The speed of transmission is an important point of difference between the two viruses. Influenza has a shorter median incubation period (the time from infection to appearance of symptoms) and a shorter serial interval (the time between successive cases) than COVID-19 virus.",
+                "Those most at risk for severe influenza infection are children, pregnant women, elderly, those with underlying chronic medical conditions and those who are immunosuppressed.",
+                "Mortality for COVID-19 appears higher than for influenza, especially seasonal influenza."
+            ]
+        },
+        {
+            "tag": "38",
+            "patterns": [
+                "What medical interventions are available for COVID-19 and influenza viruses?",
+                "Medical treatments available for COVID 19?",
+                "Medical treatment available?",
+                "Treatment for covid?",
+                "Treatment for viruses?"
+            ],
+            "responses": [
+                "While there are a number of therapeutics currently in clinical trials in China and more than 20 vaccines in development for COVID-19, there are currently no licensed vaccines or therapeutics for COVID-19."
+            ]
+        },
+        {
+            "tag": "39",
+            "patterns": [
+                "Are smokers and tobacco users at higher risk of COVID-19 infection?",
+                "Is there any problem for smokers?",
+                "Problem for tobacco users?",
+                "Risks for smokers and tobacco users?"
+            ],
+            "responses": [
+                "Smokers are likely to be more vulnerable to COVID-19 as the act of smoking means that fingers (and possibly contaminated cigarettes) are in contact with lips which increases the possibility of transmission of virus from hand to mouth.",
+                "Smoking products such as water pipes often involve the sharing of mouth pieces and hoses, which could facilitate the transmission of COVID-19 in communal and social settings."
+            ]
+        },
+        {
+            "tag": "40",
+            "patterns": [
+                "How large does a meeting or event need to be in order to be a mass gathering?",
+                "What are considered as mass gatherings?",
+                "How many people are there to call it mass gathering?",
+                "Mass gathering people count?"
+            ],
+            "responses": [
+                "High profile international sporting events such as the Olympics or World Cups as well as international religious events such as the Hajj count as mass gatherings.",
+                "An event counts as a mass gatherings if the number of people it brings together is so large that it has the potential to strain the planning and response resources of the health system in the community where it takes place."
+            ]
+        },
+        {
+            "tag": "41",
+            "patterns": [
+                "Does WHO recommend that all international mass gatherings be cancelled because of COVID-19?",
+                "Is every mass gatherings are cancelled?",
+                "All mass gatherings cancelled due to covid?"
+            ],
+            "responses": [
+                "No. As each international mass gathering is different, the factors to consider when determining if the event should be cancelled may also differ."
+            ]
+        }
+    ]
+}
